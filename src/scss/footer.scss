@@ -1,0 +1,22 @@
+//====================================================================================================
+.footer {
+    padding: 45px 0px;
+    // .footer__items
+    &__items {
+        display: flex;
+        column-gap: 50px;
+        row-gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:$mobile){
+    .footer {
+        padding: 30px 0px;
+        // .footer__items
+        &__items {
+        flex-direction: column;
+        }
+    }
+}
+//====================================================================================================
